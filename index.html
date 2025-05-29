@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tadepalli Tarun</title>
+    <link rel="icon" type="image/jpg" sizes="192x192" href="images/tt.jpg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            
+            <ul id="sidemenu">
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+
+
+<div class="header-content">
+            <div class="header-text">
+                <div class="role">
+                    Aspiring <span class="rolling-text" id="dynamic-role">Fullstack Developer</span>
+                  </div>
+                  
+                  <h1 class="home-title">Hi, I'm <span class="italic">Tarun</span><br>
+                    Student At KL University.</h1>
+
+
+                
+                <div class="specialization">
+                    <span id="typed-text"></span>
+                  </div>
+            
+            </div>
+        
+        
+
+            
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Tarun (2).jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Tarun Tadepalli, a dedicated Full Stack Developer with a strong focus on frontend development and a solid grasp of modern frameworks like React and the MERN stack. Currently advancing my backend integration skills to deliver more robust and scalable applications. I bring a well-rounded skill set that includes team management, critical thinking, problem solving, and strong communication. Known for my adaptability and eagerness to learn, I thrive in dynamic environments where innovation and collaboration are key.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Languages')">Languages</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Languages">
+                    <ul>
+                        <li><span>English</span><br>Fluent</li>
+                        <li><span>Hindi</span><br>Professional Working Proficiency</li>
+                        <li><span>Telugu</span><br>Native</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-Present</span><br>B-tech at KL University</li>
+                        <li><span>2022</span><br>Intermediate Sri Bhavishya JR College</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+                <div class="work big-project">
+                    <iframe 
+                    src="https://kowsik-m.github.io/BidX/" 
+                    frameborder="0"
+                    allowfullscreen
+                    class="live-site-frame">
+                </iframe>
+
+
+                    <div class="layer">
+                        <h3>BIDX <span style="font-size: 0.6em;">(Online Bidding System)</span></h3>
+                        <p>BidX is a dynamic online bidding platform built with the MERN stack using MongoDB.
+                        <br><br> Enables real-time auction updates and automated winner announcements.
+                        <br><br>It features secure user authentication using Google Captcha and OTP-based phone verification.</p>
+                        
+                        <div class="links">
+                          <div class="link-item">
+                              <a href="https://github.com/Tarun-Tadepalli/BidX" target="_blank" rel="noopener noreferrer">
+                                  <i class="fas fa-external-link-alt"></i>
+                              </a>
+                              <span>GitHub</span>
+                          </div>
+                          <div class="link-item">
+                              <a href="https://kowsik-m.github.io/BidX/" target="_blank" rel="noopener noreferrer">
+                                  <i class="fas fa-external-link-alt"></i>
+                              </a>
+                              <span>Live Demo</span>
+                          </div>
+                      </div>
+                        
+                    </div>
+                </div>
+
+            <div class="work">
+                <img src="images/citytech.png">
+                <div class="layer">
+                    <h3>CITY-Tech<span style="font-size: 0.6em;">(Online City Detailing System)</span></h3>
+                    <p>Developed using JSP, Spring Boot, MySQL, and Apache Tomcat to provide detailed information about a city.
+                       <br><br> The platform displays key places and their locations within the city through an interactive interface.
+                       <br><br>It enables users to explore city highlights efficiently with real-time data access and dynamic content rendering.</p>
+                       
+                          <a href="https://github.com/Tarun-Tadepalli/Citytech"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/Ship.png">
+                <div class="layer">
+                    <h3>SHIP-IT <span style="font-size: 0.6em;">(Courier Service System)</span></h3>
+                    <p>Ship-It is a courier service management system developed using JSF, JSP, EJB, JPA, and MySQL.
+                        <br><br>It enables admins to efficiently create, manage, and track parcels with detailed attributes.
+                        <br><br>The system supports dynamic delivery tracking using AWB No., LRN No., mobile number, and parcel ID.</p>
+                    <a href="https://github.com/Tarun-Tadepalli/Ship-IT"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Artazon.jpg">
+                <div class="layer">
+                    <h3>ARTAZON <span style="font-size: 0.6em;">(Online Art Gallery)</span></h3>
+                    <p>Developed using HTML, CSS, Python (frontend), Django (framework), and pgAdmin (backend).
+
+                        <br><br>Enables artists to upload and showcase their artwork in an interactive online gallery.
+                        
+                        <br><br>Allows users to explore, purchase art, and engage in secure, seamless transactions.</p>
+                    <a href="https://github.com/Tarun-Tadepalli/Artazon"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            
+            <div class="extra-projects" id="extra-projects">
+                <div class="work">
+                    <img src="images/PORTFOLIO.png">
+                    <div class="layer">
+                        <h3>MY Personal Portfolio<span style="font-size: 0.6em;"></span></h3>
+                        <p>Developed a personal portfolio website using HTML and CSS to showcase my projects, skills, and contact details.
+
+                        <br><br>The layout is clean and responsive, ensuring it works well on all devices.
+                        
+                        <br><br> I used relevant images to enhance visual appeal and make the content more engaging.</p>                      </p>
+                    <a href="https://github.com/Tarun-Tadepalli/Artazon"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn" id="toggle-btn" onclick="toggleProjects()">See More</button>
+    </div>
+</div>
+
+<!-----------Skills--------------->
+<section id="skills" class="skills-section">
+  <h2 class="section-title left-title">Skills</h2>
+  <div class="skill-categories">
+
+    <div class="category" onclick="openModal('programming')">
+      <i class="fa-solid fa-code"></i>
+      <p>Programming Languages</p><br>
+      <span class="view-hint">View Skills</span>
+    </div>
+
+    <div class="category" onclick="openModal('frameworks')">
+      <i class="fa-solid fa-database"></i>
+      <p>Frameworks & Databases</p><br>
+      <span class="view-hint">View Skills</span>
+    </div>
+
+    <div class="category" onclick="openModal('cloud')">
+      <i class="fa-solid fa-cloud"></i>
+      <p>Cloud Technologies</p><br>
+      <span class="view-hint">View Skills</span>
+    </div>
+
+    <div class="category" onclick="openModal('uiux')">
+      <i class="fa-solid fa-pencil-ruler"></i>
+      <p>UX/UI</p><br>
+      <span class="view-hint">View Skills</span>
+    </div>
+
+    <div class="category" onclick="openModal('softskills')">
+      <i class="fa-solid fa-users"></i>
+      <p>Soft Skills</p><br>
+      <span class="view-hint">View Skills</span>
+    </div>
+
+  </div>
+
+  <!-- Modal Popup Template -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h3 id="modal-title">Title</h3>
+      <div id="skill-bars"></div>
+    </div>
+  </div>
+</section>
+  
+  
+
+<!-- ---------services---------------- -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-redhat"></i>
+                <h2>Red Hat Certified Enterprise Application Developer</h2>
+                <p>Validates skills in developing, deploying, and maintaining enterprise-level Java applications using Red Hat technologies.</p>
+                <a href="https://drive.google.com/file/d/1fSmSxbuLjOB_98Oai2-DQ1_TqFOzOhXc/view?usp=sharing">View Certificate</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS Certified Cloud Practitioner</h2>
+                <p>Demonstrates foundational knowledge of AWS Cloud concepts, services, security, and billing, suitable for non-technical and beginner roles.</p>
+                <a href="https://drive.google.com/file/d/17dPFOjHwYKSCs8cHI2jXBqCWNJGAhbQH/view?usp=sharing">View Certificate</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-salesforce"></i>
+                <h2>Salesforce Certified AI Associate</h2>
+                <p>Recognizes understanding of AI fundamentals and the ability to apply AI capabilities within the Salesforce ecosystem</p>
+                <a href="https://drive.google.com/file/d/1MB2HgVqebDV8I3aqiLUozLnKr66R712s/view?usp=sharing">View Certificate</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> 2200031281cseh@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>91+ 9346339305</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tarun-tadepalli-3b6646249/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Tarun-Tadepalli"><i class="fab fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/h2200031281"><i class="fa-brands fa-hackerrank"></i></a>
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                </div>
+                <a href="images/2200031281.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Belongs to <a href="https://drive.google.com/file/d/1PH8kI7F_QarmbkD8PsZoBG9IaG6kjaD8/view?usp=sharing">@Tarun Tadepalli</a></p>
+    </div>
+</div>
+
+
+<script>
+    function toggleProjects() {
+      const extraProjects = document.getElementById('extra-projects');
+      const btn = document.getElementById('toggle-btn');
+  
+      if (extraProjects.style.display === "grid") {
+        extraProjects.style.display = "none";
+        btn.innerText = "See More";
+      } else {
+        extraProjects.style.display = "grid"; // Use grid to match the others
+        btn.innerText = "See Less";
+      }
+    }
+  </script>
+  
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+    // Mobile menu functionality
+// Update your JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.fa-bars');
+    const closeIcon = document.querySelector('.fa-times');
+    const sideMenu = document.getElementById('sidemenu');
+    
+    // Initially hide the close icon
+    closeIcon.style.display = 'none';
+    
+    // Toggle menu open
+    menuIcon.addEventListener('click', function(e) {
+        e.stopPropagation(); // Prevent this click from bubbling up
+        sideMenu.classList.add('show');
+        document.body.style.overflow = 'hidden';
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+    });
+    
+    // Close menu when clicking close icon
+    closeIcon.addEventListener('click', function(e) {
+        e.stopPropagation(); // Prevent this click from bubbling up
+        closeMenu();
+    });
+    
+    // Close menu when clicking anywhere outside
+    document.addEventListener('click', function(event) {
+        if (sideMenu.classList.contains('show')) {
+            closeMenu();
+        }
+    }) ;
+    
+    // Prevent clicks inside menu from closing it
+    sideMenu.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+    
+    function closeMenu() {
+        sideMenu.classList.remove('show');
+        document.body.style.overflow = '';
+        menuIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+    }
+});
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwj53ubztF5Qequk2h7K0sfLfcrMWLldSGnVNK_hoDRveDClnSiZkY2PmYgk2skBmJMyQ/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    const text = "Aspiring Data Scientist | Big Data Enthusiast";
+    const typedText = document.getElementById("typed-text");
+    let i = 0;
+  
+    function typeWriter() {
+      typedText.innerHTML = "";
+      i = 0;
+      function type() {
+        if (i < text.length) {
+          typedText.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(typeWriter, 2500); // Pause 4 seconds, then restart
+        }
+      }
+      type();
+    }
+  
+    document.addEventListener("DOMContentLoaded", typeWriter);
+  </script>
+
+ <!--SKILL--> 
+<script>
+    const skillsData = {
+      programming: {
+        title: "Programming Languages",
+        skills: [
+          { name: "C", level: 90 },
+          { name: "Java", level: 85 },
+          { name: "Python", level: 75 },
+          { name: "JavaScript", level: 70 },
+          { name: "HTML5", level: 90 },
+          { name: "CSS3", level: 85 },
+          { name: "SQL", level: 80 }
+        ]
+      },
+      frameworks: {
+        title: "Frameworks & Databases",
+        skills: [
+          { name: "React", level: 85 },
+          { name: "Spring Boot", level: 70 },
+          { name: "MySQL", level: 80 },
+          { name: "MongoDB", level: 75 },
+          { name: ".Net", level: 75 }
+        ]
+      },
+      cloud: {
+        title: "Cloud Technologies",
+        skills: [
+          { name: "AWS", level: 70 },
+          { name: "Azure", level: 75 },
+          { name: "Google", level: 80 }
+        ]
+      },
+      uiux: {
+        title: "UX/UI",
+        skills: [
+          { name: "Figma", level: 80 },
+          { name: "Prototyping", level: 70 }
+        ]
+      },
+      softskills: {
+        title: "Soft Skills",
+        skills: [
+          { name: "Team Management", level: 90 },
+          { name: "Critical Thinking", level: 85 },
+          { name: "Problem Solving", level: 80 },
+          { name: "Communication", level: 90 },
+          { name: "Adaptability", level: 95 }
+        ]
+      }
+    };
+  
+    function openModal(category) {
+      const modal = document.getElementById("modal");
+      const title = document.getElementById("modal-title");
+      const bars = document.getElementById("skill-bars");
+  
+      const data = skillsData[category];
+      title.innerText = data.title;
+      bars.innerHTML = "";
+  
+      data.skills.forEach(skill => {
+        const skillHTML = `
+  <div class="skill-bar">
+    <div class="skill-name">${skill.name}</div>
+    <div class="bar-container">
+      <div class="bar-fill" style="width: 0%" data-width="${skill.level}%"></div>
+      <span class="bar-percentage"></span>
+    </div>
+  </div>`;
+
+        bars.innerHTML += skillHTML;
+      });
+  
+      modal.style.display = "flex";
+  
+      setTimeout(() => {
+  document.querySelectorAll(".bar-fill").forEach(bar => {
+    const targetWidth = bar.getAttribute("data-width");
+    bar.style.width = targetWidth;
+
+    // Show the percentage beside the bar after it fills
+    const percentageSpan = bar.nextElementSibling;
+    percentageSpan.textContent = targetWidth;
+    percentageSpan.style.opacity = 1;
+  });
+}, 100);
+
+    }
+  
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+  
+    // Optional: Close modal when clicking outside
+    window.onclick = function(event) {
+      const modal = document.getElementById("modal");
+      if (event.target == modal) closeModal();
+    };
+
+    
+
+  </script>  
+ <!--SKILL-->
+ 
+ 
+  <script>
+const titles = [
+  "Fullstack Developer",
+  "UX/UI Designer",
+  "Frontend Developer"
+];
+
+const colors = [
+  "#ffc107", // Elegant Gold
+  "#00bcd4", // Soft Cyan
+  "#8e44ad"  // Royal Purple
+];
+
+let currentIndex = 0;
+const dynamicRole = document.getElementById("dynamic-role");
+
+function rotateRole() {
+  // Fade out
+  dynamicRole.classList.add("fade-out");
+
+  setTimeout(() => {
+    currentIndex = (currentIndex + 1) % titles.length;
+
+    // Update text and color
+    dynamicRole.textContent = titles[currentIndex];
+    dynamicRole.style.color = colors[currentIndex];
+
+    // Fade in
+    dynamicRole.classList.remove("fade-out");
+    dynamicRole.classList.add("fade-in");
+
+    setTimeout(() => {
+      dynamicRole.classList.remove("fade-in");
+    }, 500);
+  }, 500);
+}
+
+setInterval(rotateRole, 2000);
+
+  </script>
+  
+
+
+</body>
+</html>
